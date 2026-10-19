@@ -8,7 +8,7 @@ from forecast import backtest, forecast_next
 from llm import DEFAULT_MODEL, build_facts, explain
 from spc import N_BASE, build_summary, load_flags, plot_monthly_counts, plot_trust
 
-DATA_PATH = Path(__file__).parent / "data" / "spc_flags_all_trusts.csv"
+DATA_PATH = Path(__file__).parent / "spc_flags_all_trusts.csv""
 STATUS_ORDER = {"Deteriorating": 0, "Improving": 1, "Normal variation": 2}
 
 st.set_page_config(page_title="A&E 4-hour performance by trust", layout="wide")
